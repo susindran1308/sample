@@ -1,0 +1,90 @@
+body{
+    background: url(../images/background.jpg);
+    
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height: 100px;
+    
+}
+
+ul li{
+    float: left;
+    width: 280px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    padding-top: 20px;
+    display: block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+ul li:hover{
+    background: pink;
+}
+ul li a:hover{
+    color: black;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+/*
+#header{
+    background: black;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    
+}
+
+#navbar>li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 90px;
+    
+}
+
+#navbar>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+a:hover{
+    background: pink;
+    color: black;
+}
+ul>li>ul>li>a{
+    text-decoration: none;
+    
+}
+ul>li>ul>li{
+    list-style-type: none;
+    font-size: 40px;
+    font-family: cursive;
+    display: none;
+}
+ul>li:hover ul li{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: cursive;
+    background: black;
+}*/
